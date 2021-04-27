@@ -95,4 +95,7 @@ symfony logs
 symfony ssh
 ```
 
-
+## Generate Controller
+```bash
+symfony console make:controller ConferenceController
+```
