@@ -78,6 +78,9 @@ symfony server:log
 
 # logs from symfony cloud
 symfony logs
+
+# connect to symfony cloud via SSH
+symfony ssh
 ```
 
 
