@@ -40,3 +40,14 @@ symfony open:local
 ```bash
 symfony project:init
 ```
+### Initialize project on Symfony Cloud
+```bash
+symfony project:create --title="book" --plan=development
+```
+### Deploy on Symfony Cloud
+```bash
+symfony deploy
+
+# open symfony cloud remote 
+symfony open:remote
+```
