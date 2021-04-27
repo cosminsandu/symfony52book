@@ -47,6 +47,9 @@ symfony project:create --title="book" --plan=development
 ### Deploy on Symfony Cloud
 ```bash
 symfony deploy
+# Note: you should be on branch "master"; 
+# on branch "main" I get:
+# could not determine current environment for this project: current git branch name doesn't match any SymfonyCloud environments.
 
 # open symfony cloud remote 
 symfony open:remote
