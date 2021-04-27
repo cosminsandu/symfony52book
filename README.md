@@ -75,6 +75,10 @@ symfony composer req maker --dev
 # generated command for maker bundle 
 symfony console list make
 ```
+### Annotations
+```bash
+symfony composer req annotations
+```
 
 
 ## Logging
