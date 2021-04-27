@@ -8,7 +8,7 @@ This is my playground for [Symfony book](https://symfony.com/book)
 - PHP 8 + extensions (json, session, pdo_pgsql, xsl, gd, tokenizer, xml, redis, ctype, zip, amqp, intl, mbstring, openssl, sodium, curl)
 - Composer
 - NodeJS and Yarn
-- [Symfony CLI](https://symfony.com/download)
+- [Symfony CLI](https://symfony.com/download) & [Symfony account](https://symfony.com/account)
 - Docker & Docker Compose
 
 To check symfony requirements run:
@@ -33,4 +33,10 @@ symfony server:start -d
 
 # open the website in a browser from the CLI
 symfony open:local
+```
+
+## Going to Symfony Cloud
+### Add SymfonyCloud configuration
+```bash
+symfony project:init
 ```
