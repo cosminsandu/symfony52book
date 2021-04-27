@@ -60,3 +60,7 @@ symfony open:remote
 ```bash
 symfony composer req profiler --dev
 ```
+### logger
+```bash
+symfony composer req logger
+```
