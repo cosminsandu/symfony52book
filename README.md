@@ -54,3 +54,9 @@ symfony deploy
 # open symfony cloud remote 
 symfony open:remote
 ```
+
+## Install more dependencies
+### Profiler
+```bash
+symfony composer req profiler --dev
+```
