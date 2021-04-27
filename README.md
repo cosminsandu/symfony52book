@@ -64,3 +64,7 @@ symfony composer req profiler --dev
 ```bash
 symfony composer req logger
 ```
+### Debug
+```bash
+symfony composer req debug --dev
+```
