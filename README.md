@@ -68,6 +68,11 @@ symfony composer req logger
 ```bash
 symfony composer req debug --dev
 ```
+### Maker bundle
+```bash
+symfony composer req maker --dev
+```
+
 
 ## Logging
 ```bash
