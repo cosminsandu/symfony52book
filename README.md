@@ -68,3 +68,9 @@ symfony composer req logger
 ```bash
 symfony composer req debug --dev
 ```
+```bash
+# tail all the logs (from the web server, PHP, and your application):
+symfony server:log
+```
+
+
