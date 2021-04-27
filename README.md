@@ -71,6 +71,9 @@ symfony composer req debug --dev
 ### Maker bundle
 ```bash
 symfony composer req maker --dev
+
+# generated command for maker bundle 
+symfony console list make
 ```
 
 
