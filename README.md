@@ -22,7 +22,15 @@ symfony book:check-requirements
 ```
 
 ## Create new symfony project
-
 ```bash
 symfony new --version=5.2-1 --book guestbook
+```
+
+## Launching a Local Web Server
+```bash
+# starts web server in the background (-d flag)
+symfony server:start -d
+
+# open the website in a browser from the CLI
+symfony open:local
 ```
