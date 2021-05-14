@@ -111,3 +111,17 @@ symfony composer req annotations
 ```bash
 symfony console make:controller ConferenceController
 ```
+
+## Database in Docker
+- create ``docker-compose.yaml`` file
+```bash
+#Start Docker Compose in the background (-d):
+docker-compose up -d
+
+#List containers
+docker-compose ps
+docker-compose ps -a
+
+#View output from containers
+docker-compose logs
+```
