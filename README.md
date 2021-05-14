@@ -125,6 +125,10 @@ symfony console make:entity Conference
 ```bash
 symfony console make:migration
 ```
+- Run migration 
+```bash
+symfony console doctrine:migrations:migrate
+```
 
 
 ## Database
@@ -159,3 +163,10 @@ symfony run pg_dump --data-only > dump.sql
 ```bash
 symfony run psql < dump.sql
 ```
+
+
+
+
+# continue here
+https://symfony.com/doc/current/the-fast-track/en/8-doctrine.html
+
