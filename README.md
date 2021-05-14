@@ -26,33 +26,60 @@ symfony book:check-requirements
 symfony new --version=5.2-1 --book guestbook
 ```
 
-## Launching a Local Web Server
+## Local server
+### Start local server
 ```bash
 # starts web server in the background (-d flag)
 symfony server:start -d
+```
 
+### Open local site 
+```bash
 # open the website in a browser from the CLI
 symfony open:local
 ```
 
-## Going to Symfony Cloud
-### Add SymfonyCloud configuration
+### Logs from local site 
+```bash
+# logs from local env
+symfony server:log
+```
+
+## SymfonyCloud
+### Initialise
 ```bash
 symfony project:init
 ```
-### Initialize project on Symfony Cloud
+### Create project on SymfonyCloud
 ```bash
 symfony project:create --title="book" --plan=development
+symfony project:list
 ```
-### Deploy on Symfony Cloud
+
+### Deploy on SymfonyCloud
 ```bash
 symfony deploy
 # Note: you should be on branch "master"; 
 # on branch "main" I get:
 # could not determine current environment for this project: current git branch name doesn't match any SymfonyCloud environments.
+```
 
-# open symfony cloud remote 
+### Open site on SymfonyCloud
+```bash
+# open SymfonyCloud remote 
 symfony open:remote
+```
+
+### Logging on SymfonyCloud
+```bash
+# logs from SymfonyCloud
+symfony logs
+```
+
+### SSH on SymfonyCloud 
+```bash
+# connect to SymfonyCloud via SSH
+symfony ssh
 ```
 
 ## Install more dependencies
@@ -60,7 +87,7 @@ symfony open:remote
 ```bash
 symfony composer req profiler --dev
 ```
-### logger
+### Logger
 ```bash
 symfony composer req logger
 ```
@@ -78,21 +105,6 @@ symfony console list make
 ### Annotations
 ```bash
 symfony composer req annotations
-```
-
-
-## Logging
-```bash
-#tail all the logs (from the web server, PHP, and your application):
-
-# logs from local env
-symfony server:log
-
-# logs from symfony cloud
-symfony logs
-
-# connect to symfony cloud via SSH
-symfony ssh
 ```
 
 ## Generate Controller
