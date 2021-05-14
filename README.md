@@ -111,13 +111,18 @@ symfony composer req annotations
 symfony composer req "orm:^2"
 ```
 
-## Generate Controller
+## Generate 
+### Controller
 ```bash
 symfony console make:controller ConferenceController
 ```
+### Entity and Repo
+```bash
+symfony console make:entity Conference
+```
 
 ## Database
-### Docker 
+### Create on Docker 
 - create ``docker-compose.yaml`` file
 ```bash
 #Start Docker Compose in the background (-d):
