@@ -110,6 +110,11 @@ symfony composer req annotations
 ```bash
 symfony composer req "orm:^2"
 ```
+### EasyAdmin
+```bash
+symfony composer req "admin:^3"
+```
+
 
 ## Generate 
 ### Controller
@@ -168,5 +173,5 @@ symfony run psql < dump.sql
 
 
 # continue here
-https://symfony.com/doc/current/the-fast-track/en/8-doctrine.html
+https://symfony.com/doc/current/the-fast-track/en/9-backend.html
 
