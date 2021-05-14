@@ -120,6 +120,12 @@ symfony console make:controller ConferenceController
 ```bash
 symfony console make:entity Conference
 ```
+### Migration
+- Generate migration from entities
+```bash
+symfony console make:migration
+```
+
 
 ## Database
 ### Create on Docker 
