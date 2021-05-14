@@ -112,7 +112,8 @@ symfony composer req annotations
 symfony console make:controller ConferenceController
 ```
 
-## Database in Docker
+## Database
+### Docker 
 - create ``docker-compose.yaml`` file
 ```bash
 #Start Docker Compose in the background (-d):
@@ -124,4 +125,22 @@ docker-compose ps -a
 
 #View output from containers
 docker-compose logs
+```
+
+- accessing local database
+```bash
+symfony run psql
+```
+DataBase can be accessing GUI (e.g. Heidy Sql) with 
+the credentials from ``docker-compose.yaml`` 
+and port from ``docker-compose ps -a``  
+
+- dump database data
+```bash
+symfony run pg_dump --data-only > dump.sql
+```
+
+- restore the data
+```bash
+symfony run psql < dump.sql
 ```
