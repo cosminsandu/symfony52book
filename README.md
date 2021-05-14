@@ -82,7 +82,7 @@ symfony logs
 symfony ssh
 ```
 
-## Install more dependencies
+## Install dependencies
 ### Profiler
 ```bash
 symfony composer req profiler --dev
@@ -105,6 +105,10 @@ symfony console list make
 ### Annotations
 ```bash
 symfony composer req annotations
+```
+### ORM
+```bash
+symfony composer req "orm:^2"
 ```
 
 ## Generate Controller
